@@ -3,5 +3,5 @@
 # print(message)
 
 """ division by zero """
-# print(0/0)
+print(0/0)
 
