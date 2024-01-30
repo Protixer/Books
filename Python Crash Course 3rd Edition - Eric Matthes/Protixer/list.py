@@ -20,10 +20,21 @@
 # print(f"List:{names}")
 
 """Add elements to list"""
+# valorant_agents = []
+
+# valorant_agents.append("Jet")
+# valorant_agents.append("Reyna")
+# valorant_agents.append("Viper")
+
+# print(f"Agents: {valorant_agents}")
+
+"""Add elements to list with insert()"""
 valorant_agents = []
 
-valorant_agents.append("Jet")
-valorant_agents.append("Reyna")
-valorant_agents.append("Viper")
+valorant_agents.insert(0,"Jet")
+valorant_agents.insert(1,"Viper")
+valorant_agents.insert(2,"Reyna")
+valorant_agents.insert(1,"Brim")
 
-print(f"Agents: {valorant_agents}")
+print(valorant_agents)
+
