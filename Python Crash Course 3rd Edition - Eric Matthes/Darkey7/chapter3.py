@@ -76,48 +76,91 @@
 
 
 #3-4 + 3-5 + 3-6
-guests = ['William Shakespeare', 'Stephen Hawking', 'Ryan Reynolds']
+# guests = ['William Shakespeare', 'Stephen Hawking', 'Ryan Reynolds']
 
-print(f'{guests[0]}, you are an incredible writer!')
-print(f'{guests[1]}, you are have an outstanding mind!')
-print(f'{guests[2]}, you are a great actor!')
+# print(f'{guests[0]}, you are an incredible writer!')
+# print(f'{guests[1]}, you are have an outstanding mind!')
+# print(f'{guests[2]}, you are a great actor!')
 
-print()
-print(f'Unfortunately our guest {guests[1]}, won\'t be able to attend')
+# print()
+# print(f'Unfortunately our guest {guests[1]}, won\'t be able to attend')
 
-guests[1] = 'Albert Einstein'
+# guests[1] = 'Albert Einstein'
 
-print(f'{guests[0]}, you are an incredible writer!')
-print(f'{guests[1]}, you are have an outstanding mind!')
-print(f'{guests[2]}, you are a great actor!')
+# print(f'{guests[0]}, you are an incredible writer!')
+# print(f'{guests[1]}, you are have an outstanding mind!')
+# print(f'{guests[2]}, you are a great actor!')
 
-print()
-print('Great news everyone, we\'ve found a bigger table, so we will be inviting more guests')
+# print()
+# print('Great news everyone, we\'ve found a bigger table, so we will be inviting more guests')
 
-guests.insert(0, "Oprah Winfrey")
-guests.insert(2, "Harry Potter")
-guests.append('Percy Jackson')
+# guests.insert(0, "Oprah Winfrey")
+# guests.insert(2, "Harry Potter")
+# guests.append('Percy Jackson')
 
-print(guests)
+# print(guests)
 
-print()
-for guest in range(len(guests)):
-    print(f'{guests[guest]}, welcome to our dinner party!')
+# print()
+# for guest in range(len(guests)):
+#     print(f'{guests[guest]}, welcome to our dinner party!')
 
-print()
-print('Unfortunately we can only have 2 guests over for our dinner party!')
+# print()
+# print('Unfortunately we can only have 2 guests over for our dinner party!')
 
-for i in range(len(guests)):
-    if i == 4:
-        break
-    removed_guest = guests.pop()
-    print(f'{removed_guest}, you won\'t be able to attend the party!')
+# for i in range(len(guests)):
+#     if i == 4:
+#         break
+#     removed_guest = guests.pop()
+#     print(f'{removed_guest}, you won\'t be able to attend the party!')
 
-print(guests)
+# print(guests)
 
-for _ in range(len(guests)):
-    print(f'{guests[-1]}, you are still invited to the party!')
-    del guests[-1]
+# for _ in range(len(guests)):
+#     print(f'{guests[-1]}, you are still invited to the party!')
+#     del guests[-1]
 
-print()
-print(guests)
+# print()
+# print(guests)
+
+
+
+#SORTING --> .sort() VS sorted()
+
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# cars.sort()
+# print(cars)
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# cars.sort(reverse=True)
+# print(cars)
+
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# print("Here is the original list:")
+# print(cars)
+# print("\nHere is the sorted list:")
+# print(sorted(cars))
+# print("\nHere is the original list again:")
+# print(cars)
+
+
+#REVERSE
+
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# print(cars)
+# cars.reverse()
+# print(cars)
+
+
+#3-8
+
+locations = ['Japan', 'France', 'USA', 'Peru', 'Spain']
+print(locations)
+print(sorted(locations))
+print(locations)
+locations.reverse()
+print(locations)
+locations.reverse()
+print(locations)
+locations.sort()
+print(locations)
+locations.sort(reverse= True)
+print(locations)
