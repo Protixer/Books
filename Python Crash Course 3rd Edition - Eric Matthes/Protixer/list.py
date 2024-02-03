@@ -39,7 +39,11 @@
 # print(valorant_agents)
 
 """ Removing an item using the del Statement"""
-valorant_agents = ["Jet", "Reyna"]
-del valorant_agents[0]
-print(valorant_agents)
+# valorant_agents = ["Jet", "Reyna"]
+# del valorant_agents[0]
+# print(valorant_agents)
 
+""" Removing an Item Using the pop() Method """
+valorant_agents = ["Jet", "Reyna", "Chamber"]
+valorant_agents.pop(1) #pop() only INDEX
+print(valorant_agents)
