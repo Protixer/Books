@@ -29,12 +29,17 @@
 # print(f"Agents: {valorant_agents}")
 
 """Add elements to list with insert()"""
-valorant_agents = []
+# valorant_agents = []
 
-valorant_agents.insert(0,"Jet")
-valorant_agents.insert(1,"Viper")
-valorant_agents.insert(2,"Reyna")
-valorant_agents.insert(1,"Brim")
+# valorant_agents.insert(0,"Jet")
+# valorant_agents.insert(1,"Viper")
+# valorant_agents.insert(2,"Reyna")
+# valorant_agents.insert(1,"Brim")
 
+# print(valorant_agents)
+
+""" Removing an item using the del Statement"""
+valorant_agents = ["Jet", "Reyna"]
+del valorant_agents[0]
 print(valorant_agents)
 
