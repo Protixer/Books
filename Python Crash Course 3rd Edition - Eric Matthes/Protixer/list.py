@@ -45,5 +45,5 @@
 
 """ Removing an Item Using the pop() Method """
 valorant_agents = ["Jet", "Reyna", "Chamber"]
-valorant_agents.pop(1) #pop() only INDEX
+valorant_agents.pop(1)  # pop() only INDEX
 print(valorant_agents)
