@@ -42,7 +42,7 @@
 # print(squares)
 
 
-# LIST COMPREHENSION
+"""LIST COMPREHENSION"""
 
 # squares = [value**2 for value in range(1, 11)]
 # print(squares)
@@ -78,3 +78,56 @@
 # 4-9
 # list_of_cubes = [num**3 for num in range(1, 11)]
 # print(list_of_cubes)
+
+
+"""SLICING LISTS"""
+
+# players = ["charles", "martina", "michael", "florence", "eli"]
+
+# print(players[0:3])
+# print(players[1:4])
+# print(players[:4])
+# print(players[2:])
+# print(players[-3:])
+
+# print("Here are the first three players on my team:")
+# for player in players[:3]:
+#     print(player.title())
+
+
+"""COPYING LISTS"""
+
+# my_foods = ['pizza', 'falafel', 'carrot cake']
+# friend_foods = my_foods[:] #you can make a slice that includes the entire
+# #original list by omitting the first index and the second index to create a copy
+
+# my_foods.append('cannoli')
+# friend_foods.append('ice cream')
+
+# print("My favorite foods are:")
+# print(my_foods)
+# print("\nMy friend's favorite foods are:")
+# print(friend_foods)
+
+
+# 4-10
+# players = ["charles", "martina", "michael", "florence", "eli"]
+# print(f"The first three items in the list are: {players[:3]}")
+# print(f"Three items from the middle of the list are: {players[1:4]}")
+# print(f"The last three items in the list are: {players[-3:]}")
+
+
+# 4-11
+# pizza_list = ["margarita", "formaggie", "vegetarian"]
+# friend_pizzas = pizza_list[:]
+
+# pizza_list.append("italian")
+# friend_pizzas.append("pepperoni")
+
+# print("My favourite pizzas are:")
+# for pizza in pizza_list:
+#     print(pizza)
+
+# print("My friend's favorite pizzas are:")
+# for friend_pizza in friend_pizzas:
+#     print(friend_pizza)
