@@ -131,3 +131,43 @@
 # print("My friend's favorite pizzas are:")
 # for friend_pizza in friend_pizzas:
 #     print(friend_pizza)
+
+
+"""TUPLES = immutable lists"""
+
+# dimensions = (200, 50)
+# print(dimensions[0])
+# print(dimensions[1])
+
+# dimensions[0] = 250 # gives an error, because tuples are immutable and their values cannot be changes
+
+"""NOTE!! - Tuples are technically defined by the presence of a comma; the parentheses make them
+look neater and more readable. If you want to define a tuple with one element, you
+need to include a trailing comma: my_t = (3,)"""
+
+# for dimension in dimensions:
+#     print(dimension)
+
+"""OVERWRITING TUPLES"""
+
+# dimensions = (200, 50)
+# print("Original dimensions:")
+# for dimension in dimensions:
+#     print(dimension)
+
+# dimensions = (400, 100)
+# print("\nModified dimensions:")
+# for dimension in dimensions:
+#     print(dimension)
+
+
+# 4-13
+buffet_menu_tuple = ("milk", "bread", "butter", "jam", "cereal")
+
+for food in buffet_menu_tuple:
+    print(food)
+
+buffet_menu_tuple = ("tea", "bread", "eggs", "jam", "cereal")
+
+for food in buffet_menu_tuple:
+    print(food)
