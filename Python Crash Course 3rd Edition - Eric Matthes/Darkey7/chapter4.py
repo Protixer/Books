@@ -10,7 +10,6 @@
 
 
 # 4-1
-
 # pizza_list = ["margarita", "formaggie", "vegetarian"]
 
 # for pizza in pizza_list:
@@ -18,8 +17,8 @@
 
 # print("I really love pizza!!!")
 
-# 4-2
 
+# 4-2
 # animals_list = ["cat", "dog", "bunny"]
 
 # for animal in animals_list:
@@ -54,7 +53,6 @@
 
 
 # 4-4 and 4-5
-
 # million_numbers = list(range(1, 1000001))
 
 # print(min(million_numbers))
@@ -162,12 +160,12 @@ need to include a trailing comma: my_t = (3,)"""
 
 
 # 4-13
-buffet_menu_tuple = ("milk", "bread", "butter", "jam", "cereal")
+# buffet_menu_tuple = ("milk", "bread", "butter", "jam", "cereal")
 
-for food in buffet_menu_tuple:
-    print(food)
+# for food in buffet_menu_tuple:
+#     print(food)
 
-buffet_menu_tuple = ("tea", "bread", "eggs", "jam", "cereal")
+# buffet_menu_tuple = ("tea", "bread", "eggs", "jam", "cereal")
 
-for food in buffet_menu_tuple:
-    print(food)
+# for food in buffet_menu_tuple:
+#     print(food)

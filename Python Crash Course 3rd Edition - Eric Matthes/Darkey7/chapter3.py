@@ -1,19 +1,18 @@
-#3-1
-
+# 3-1
 # names = ['Ju', "Leo"]
 
 # print(names[0])
 # print(names[1])
 
-#3-2
 
+# 3-2
 # names = ['Ju', "Leo"]
 
 # print(f'Hello,{names[0]}')
 # print(f'Hello,{names[1]}')
 
-#3-3
 
+# 3-3
 # transportation = ['car', 'airplane' , 'motorcycle',]
 
 # print(f'I would like to own an Audi {transportation[0]}')
@@ -33,7 +32,8 @@
 # motorcycles.insert(0, 'ducati')
 # print(motorcycles)
 
-#DELETE
+
+"""DELETE"""
 # motorcycles = ['honda', 'yamaha', 'suzuki']
 # print(motorcycles)
 
@@ -41,7 +41,7 @@
 # print(motorcycles)
 
 
-#POP()
+"""POP()"""
 # motorcycles = ['honda', 'yamaha', 'suzuki']
 # print(motorcycles)
 
@@ -59,7 +59,7 @@
 # print(f"The first motorcycle I owned was a {first_owned.title()}.")
 
 
-#REMOVE()
+"""REMOVE()"""
 # motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 # print(motorcycles)
 # motorcycles.remove('ducati')
@@ -75,7 +75,7 @@
 # print(f"\nA {too_expensive.title()} is too expensive for me.")
 
 
-#3-4 + 3-5 + 3-6
+# 3-4 + 3-5 + 3-6
 # guests = ['William Shakespeare', 'Stephen Hawking', 'Ryan Reynolds']
 
 # print(f'{guests[0]}, you are an incredible writer!')
@@ -123,8 +123,7 @@
 # print(guests)
 
 
-
-#SORTING --> .sort() VS sorted()
+"""SORTING --> .sort() VS sorted()"""
 
 # cars = ['bmw', 'audi', 'toyota', 'subaru']
 # cars.sort()
@@ -142,7 +141,7 @@
 # print(cars)
 
 
-#REVERSE
+"""REVERSE"""
 
 # cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print(cars)
@@ -150,8 +149,7 @@
 # print(cars)
 
 
-#3-8
-
+# 3-8
 # locations = ['Japan', 'France', 'USA', 'Peru', 'Spain']
 # print(locations)
 # print(sorted(locations))
