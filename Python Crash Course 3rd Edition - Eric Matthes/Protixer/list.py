@@ -86,3 +86,10 @@ names = ["Supoli", "Bonboni", "Moni", "Simoni"]
 
 for name in names:
     print(f"Come to eat and drink, {name}")
+
+print(f"Sorry, but Supoli will miss event.")
+names.remove("Supoli")
+names.append("Kracholi")
+
+for name in names:
+    print(f"Come to eat and drink, {name}")
