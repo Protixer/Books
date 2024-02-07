@@ -75,6 +75,14 @@
 
 
 """ Removing an Item by Value """
-names = ["Simona", "Misho", "Oleg", "Venci", "Toshiqta"]
-names.remove("Misho")
-print(names)
+# names = ["Simona", "Misho", "Oleg", "Venci", "Toshiqta"]
+# names.remove("Misho")
+# print(names)
+
+
+"""Exercise Lists"""
+
+names = ["Supoli", "Bonboni", "Moni", "Simoni"]
+
+for name in names:
+    print(f"Come to eat and drink, {name}")
