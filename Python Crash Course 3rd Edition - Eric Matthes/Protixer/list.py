@@ -44,9 +44,9 @@
 # print(valorant_agents)
 
 """ Removing an Item Using the pop() Method """
-valorant_agents = ["Jet", "Reyna", "Chamber"]
-valorant_agents.pop(1)  # pop() only INDEX
-print(valorant_agents)
+# valorant_agents = ["Jet", "Reyna", "Chamber"]
+# valorant_agents.pop(1)  # pop() only INDEX
+# print(valorant_agents)
 
 # names = ["Simona","Misho","Oleg","Venci","Toshiqta"]
 # mess = f"{names[0]} have good tits!"
@@ -69,6 +69,12 @@ print(valorant_agents)
 # print(f"List:{names}")
 
 """ Pop() Metod """
+# names = ["Simona", "Misho", "Oleg", "Venci", "Toshiqta"]
+# names.pop(2)
+# print(names)
+
+
+""" Removing an Item by Value """
 names = ["Simona", "Misho", "Oleg", "Venci", "Toshiqta"]
-names.pop(2)
+names.remove("Misho")
 print(names)
