@@ -93,3 +93,5 @@ names.append("Kracholi")
 
 for name in names:
     print(f"Come to eat and drink, {name}")
+
+names.insert(0, "Reyna")
