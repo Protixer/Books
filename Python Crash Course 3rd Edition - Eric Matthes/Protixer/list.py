@@ -97,3 +97,7 @@ for name in names:
 names.insert(0, "Reyna")
 names.insert(0, "Jet")
 names.append("Bronzara")
+
+print("Invite for all guests")
+for name in names:
+    print(f"Come to eat and drink, {name}")
