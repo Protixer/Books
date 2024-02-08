@@ -96,3 +96,4 @@ for name in names:
 
 names.insert(0, "Reyna")
 names.insert(0, "Jet")
+names.append("Bronzara")
