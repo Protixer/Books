@@ -101,3 +101,6 @@ names.append("Bronzara")
 print("Invite for all guests")
 for name in names:
     print(f"Come to eat and drink, {name}")
+
+names.sort()
+print(names)
