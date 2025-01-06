@@ -82,25 +82,25 @@
 
 """Exercise Lists"""
 
-names = ["Supoli", "Bonboni", "Moni", "Simoni"]
+# names = ["Supoli", "Bonboni", "Moni", "Simoni"]
 
-for name in names:
-    print(f"Come to eat and drink, {name}")
+# for name in names:
+#     print(f"Come to eat and drink, {name}")
 
-print(f"Sorry, but Supoli will miss event.")
-names.remove("Supoli")
-names.append("Kracholi")
+# print(f"Sorry, but Supoli will miss event.")
+# names.remove("Supoli")
+# names.append("Kracholi")
 
-for name in names:
-    print(f"Come to eat and drink, {name}")
+# for name in names:
+#     print(f"Come to eat and drink, {name}")
 
-names.insert(0, "Reyna")
-names.insert(0, "Jet")
-names.append("Bronzara")
+# names.insert(0, "Reyna")
+# names.insert(0, "Jet")
+# names.append("Bronzara")
 
-print("Invite for all guests")
-for name in names:
-    print(f"Come to eat and drink, {name}")
+# print("Invite for all guests")
+# for name in names:
+#     print(f"Come to eat and drink, {name}")
 
-names.sort()
-print(names)
+# names.sort()
+# print(names)
