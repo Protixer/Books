@@ -4,4 +4,4 @@
 # print(message)
 
 """ division by zero """
-a = 0 / 0
+# a = 0 / 0
