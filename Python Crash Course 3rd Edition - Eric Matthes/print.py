@@ -10,3 +10,9 @@ valorant_duelist_name = 'Viper'
 print(valorant_duelist_name.lower())
 print('Reyna said this:"You gonna die all."')
 print("Chamber:'You want to play? Let's play.'")
+
+name = 'Chamber'
+if name:
+    print(f"Hello, {name.lower()}!")
+else:
+    print("Hello, stranger!")
