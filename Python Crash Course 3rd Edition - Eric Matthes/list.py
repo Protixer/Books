@@ -14,3 +14,6 @@ for agent in valorant_agents:
 
 valorant_agents.append('Sky')
 print(valorant_agents)
+
+valorant_agents.insert(0, 'Viper')
+print(valorant_agents)
