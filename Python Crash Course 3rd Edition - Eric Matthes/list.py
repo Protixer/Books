@@ -1,4 +1,5 @@
 valorant_agents = ['Jett', 'Sage', 'Raze', 'Breach', 'Omen', 'chamber']
+
 # print(valorant_agents)
 # print(valorant_agents[0])
 # print(valorant_agents[1:4])
@@ -38,3 +39,13 @@ valorant_agents = ['Jett', 'Sage', 'Raze', 'Breach', 'Omen', 'chamber']
 # numbers.reverse()
 # print(numbers)
 
+# for agent in valorant_agents[0:2]:
+#     print(agent)
+
+# for agent in valorant_agents[::2]:
+#     print(agent)
+
+for agent in valorant_agents:
+    print(f"Hello, {agent.title()}!")
+
+print(f"Hello, {agent.title()}!")
