@@ -45,7 +45,7 @@ valorant_agents = ['Jett', 'Sage', 'Raze', 'Breach', 'Omen', 'chamber']
 # for agent in valorant_agents[::2]:
 #     print(agent)
 
-for agent in valorant_agents:
-    print(f"Hello, {agent.title()}!")
-
-print(f"Hello, {agent.title()}!")
+# for agent in valorant_agents:
+#     print(f"Hello, {agent.title()}!")
+#
+# print(f"Hello, {agent.title()}!")
