@@ -1,4 +1,4 @@
-valorant_agents = ['Jett', 'Sage', 'Raze', 'Breach', 'Omen', 'chamber']
+# valorant_agents = ['Jett', 'Sage', 'Raze', 'Breach', 'Omen', 'chamber']
 
 # print(valorant_agents)
 # print(valorant_agents[0])
@@ -49,3 +49,29 @@ valorant_agents = ['Jett', 'Sage', 'Raze', 'Breach', 'Omen', 'chamber']
 #     print(f"Hello, {agent.title()}!")
 #
 # print(f"Hello, {agent.title()}!")
+#
+# squares = [value**2 for value in range(1,11)]
+# print(squares)
+
+# print(valorant_agents[0:3])
+# print(valorant_agents[4:])
+
+# my_foods = ['pizza','falafel','carrot cake']
+# simona_foods = my_foods[:]
+# my_foods.append('chicken')
+# simona_foods.append('chips')
+# simona_foods.append('ice cream')
+#
+# print("My favorite foods are:")
+# print(my_foods)
+#
+# print("Simona's favorite foods are:")
+# print(simona_foods)
+
+my_foods = ['pizza','falafel','carrot cake']
+simona_foods = my_foods
+simona_foods.append('chips')
+my_foods.append('chicken')
+simona_foods.append('ice cream')
+print(my_foods)
+print(simona_foods)
