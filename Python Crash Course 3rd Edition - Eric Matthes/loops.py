@@ -1,4 +1,4 @@
-cars = ['audi', 'bmw', 'subaru']
+cars = ["audi", "bmw", "subaru"]
 
 for car in cars:
     print(car)
