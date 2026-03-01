@@ -47,3 +47,10 @@ elif age < 21:
     print("Your admission cost is $75")
 else:
     print("Your admission cost is $100")
+
+
+age = 12
+if age < 4 or age < 18:
+    print("Your admission cost is $0")
+elif age < 21 or age > 25:
+    print("Your admission cost is $75")
