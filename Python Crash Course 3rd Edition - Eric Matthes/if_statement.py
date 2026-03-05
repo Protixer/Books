@@ -37,20 +37,33 @@
 # print("\nIs car == 'audi'? I predict False.")
 # print(car == "audi")
 
+#
+# age = 12
+# if age < 4:
+#     print("Your admission cost is $0")
+# elif age < 18:
+#     print("Your admission cost is $50")
+# elif age < 21:
+#     print("Your admission cost is $75")
+# else:
+#     print("Your admission cost is $100")
+#
+#
+# age = 12
+# if age < 4 or age < 18:
+#     print("Your admission cost is $0")
+# elif age < 21 or age > 25:
+#     print("Your admission cost is $75")
+#
 
-age = 12
+age = 35
+
 if age < 4:
-    print("Your admission cost is $0")
+    price = 0
 elif age < 18:
-    print("Your admission cost is $50")
-elif age < 21:
-    print("Your admission cost is $75")
+    price = 25
+elif age < 40:
+    price = 40
 else:
-    print("Your admission cost is $100")
-
-
-age = 12
-if age < 4 or age < 18:
-    print("Your admission cost is $0")
-elif age < 21 or age > 25:
-    print("Your admission cost is $75")
+    price = 20
+print(f"Your admission cost is ${price}.")
