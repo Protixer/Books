@@ -68,10 +68,27 @@
 # print("Simona's favorite foods are:")
 # print(simona_foods)
 
-my_foods = ['pizza','falafel','carrot cake']
-simona_foods = my_foods
-simona_foods.append('chips')
-my_foods.append('chicken')
-simona_foods.append('ice cream')
-print(my_foods)
-print(simona_foods)
+# my_foods = ['pizza','falafel','carrot cake']
+# simona_foods = my_foods
+# simona_foods.append('chips')
+# my_foods.append('chicken')
+# simona_foods.append('ice cream')
+# print(my_foods)
+# print(simona_foods)
+
+#
+# requesting_toppings = ["mushrooms", "onions", "pineapple", "extra cheese"]
+# for requested_topping in requesting_toppings:
+#     print(f"Adding {requested_topping}.")
+# print("Finished making your pizza!")
+
+requesting_toppings = ["mushrooms", "onions", "pineapple", "extra cheese"]
+if requesting_toppings:
+    for requested_topping in requesting_toppings:
+        if requested_topping == "mushrooms":
+            print(f"Adding {requested_topping}.")
+        else:
+            print(f"Sorry, we don't have {requested_topping}.")
+    print("Finished making your pizza!")
+else:
+    print("Restaurant is not working.")
