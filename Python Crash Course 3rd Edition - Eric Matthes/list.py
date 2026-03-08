@@ -82,13 +82,31 @@
 #     print(f"Adding {requested_topping}.")
 # print("Finished making your pizza!")
 
-requesting_toppings = ["mushrooms", "onions", "pineapple", "extra cheese"]
-if requesting_toppings:
-    for requested_topping in requesting_toppings:
-        if requested_topping == "mushrooms":
-            print(f"Adding {requested_topping}.")
-        else:
-            print(f"Sorry, we don't have {requested_topping}.")
-    print("Finished making your pizza!")
-else:
-    print("Restaurant is not working.")
+# requesting_toppings = ["mushrooms", "onions", "pineapple", "extra cheese"]
+# if requesting_toppings:
+#     for requested_topping in requesting_toppings:
+#         if requested_topping == "mushrooms":
+#             print(f"Adding {requested_topping}.")
+#         else:
+#             print(f"Sorry, we don't have {requested_topping}.")
+#     print("Finished making your pizza!")
+# else:
+#     print("Restaurant is not working.")
+
+available_toppings = [
+    "mushrooms",
+    "olives",
+    "green peppers",
+    "pepperoni",
+    "pineapple",
+    "extra cheese",
+]
+requested_toppings = ["mushrooms", "french fries", "extra cheese"]
+
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"Adding {requested_topping}.")
+    else:
+        print(f"Sorry,we don't have {requested_topping}.")
+print("Finished makeing your pizza!")
+
