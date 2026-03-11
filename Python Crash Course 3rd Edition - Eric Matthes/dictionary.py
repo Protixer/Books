@@ -21,3 +21,4 @@ valorant_agents['duelist'] = 'Jet'
 valorant_agents['controller'] = 'Brim'
 valorant_agents['sentinel'] = 'Breach'
 print(valorant_agents)
+print(valorant_agents['duelist'])
