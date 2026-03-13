@@ -16,13 +16,25 @@
 # print(alien_0['score'])
 #
 
-valorant_agents = {}
-valorant_agents['duelist'] = 'Jet'
-valorant_agents['controller'] = 'Brim'
-valorant_agents['sentinel'] = 'Breach'
-print(valorant_agents)
-print(valorant_agents['duelist'])
+# valorant_agents = {}
+# valorant_agents['duelist'] = 'Jet'
+# valorant_agents['controller'] = 'Brim'
+# valorant_agents['sentinel'] = 'Breach'
+# print(valorant_agents)
+# print(valorant_agents['duelist'])
 
 
-for agent in valorant_agents:
-  print(agent)
+# for agent in valorant_agents:
+#   print(agent)
+
+valorant_agents = {'duelist': 'Jet', 'controller': 'Viper', 'Sentinel': 'Kill Joy'}
+picked_agent = 'sen'
+
+# Check if the key exists directly
+if picked_agent in valorant_agents:
+    print(valorant_agents[picked_agent])
+else:
+    # If the key doesn't exist, default to controller
+    picked_agent = 'controller'
+
+print(valorant_agents[picked_agent])
