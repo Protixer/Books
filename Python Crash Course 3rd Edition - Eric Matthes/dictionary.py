@@ -27,14 +27,14 @@
 # for agent in valorant_agents:
 #   print(agent)
 
-valorant_agents = {'duelist': 'Jet', 'controller': 'Viper', 'Sentinel': 'Kill Joy'}
-picked_agent = 'sen'
+# valorant_agents = {'duelist': 'Jet', 'controller': 'Viper', 'Sentinel': 'Kill Joy'}
+# picked_agent = 'sen'
 
-# Check if the key exists directly
-if picked_agent in valorant_agents:
-    print(valorant_agents[picked_agent])
-else:
-    # If the key doesn't exist, default to controller
-    picked_agent = 'controller'
+# # Check if the key exists directly
+# if picked_agent in valorant_agents:
+#     print(valorant_agents[picked_agent])
+# else:
+#     # If the key doesn't exist, default to controller
+#     picked_agent = 'controller'
 
-print(valorant_agents[picked_agent])
+# print(valorant_agents[picked_agent])
