@@ -82,13 +82,22 @@
 #     print(f"Adding {requested_topping}.")
 # print("Finished making your pizza!")
 
-requesting_toppings = ["mushrooms", "onions", "pineapple", "extra cheese"]
-if requesting_toppings:
-    for requested_topping in requesting_toppings:
-        if requested_topping == "mushrooms":
-            print(f"Adding {requested_topping}.")
-        else:
-            print(f"Sorry, we don't have {requested_topping}.")
-    print("Finished making your pizza!")
-else:
-    print("Restaurant is not working.")
+# requesting_toppings = ["mushrooms", "onions", "pineapple", "extra cheese"]
+# if requesting_toppings:
+#     for requested_topping in requesting_toppings:
+#         if requested_topping == "mushrooms":
+#             print(f"Adding {requested_topping}.")
+#         else:
+#             print(f"Sorry, we don't have {requested_topping}.")
+#     print("Finished making your pizza!")
+# else:
+#     print("Restaurant is not working.")
+
+valorant_agents = {
+    "duelist": "Jet",
+    "controller": "Omen",
+    "sentinel": "Sage",
+    "initiator": "Breach",
+}
+# pop up KeyError if the key is not found
+print(valorant_agents["support"])
