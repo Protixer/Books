@@ -93,20 +93,24 @@
 # else:
 #     print("Restaurant is not working.")
 
-available_toppings = [
-    "mushrooms",
-    "olives",
-    "green peppers",
-    "pepperoni",
-    "pineapple",
-    "extra cheese",
-]
-requested_toppings = ["mushrooms", "french fries", "extra cheese"]
+# available_toppings = [
+#     "mushrooms",
+#     "olives",
+#     "green peppers",
+#     "pepperoni",
+#     "pineapple",
+#     "extra cheese",
+# ]
+# requested_toppings = ["mushrooms", "french fries", "extra cheese"]
+#
+# for requested_topping in requested_toppings:
+#     if requested_topping in available_toppings:
+#         print(f"Adding {requested_topping}.")
+#     else:
+#         print(f"Sorry,we don't have {requested_topping}.")
+# print("Finished makeing your pizza!")
+#
 
-for requested_topping in requested_toppings:
-    if requested_topping in available_toppings:
-        print(f"Adding {requested_topping}.")
-    else:
-        print(f"Sorry,we don't have {requested_topping}.")
-print("Finished makeing your pizza!")
-
+valorant_agents = {'duelist': 'Jett', 'controller': 'Omen', 'sentinel': 'Sage', 'initiator': 'Breach'}
+#pop up KeyError
+print(valorant_agents['support'])
