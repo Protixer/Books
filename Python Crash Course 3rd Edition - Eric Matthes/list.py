@@ -111,6 +111,16 @@
 # print("Finished makeing your pizza!")
 #
 
-valorant_agents = {'duelist': 'Jett', 'controller': 'Omen', 'sentinel': 'Sage', 'initiator': 'Breach'}
-#pop up KeyError
-print(valorant_agents['support'])
+# valorant_agents = {
+#     "duelist": "Jett",
+#     "controller": "Omen",
+#     "sentinel": "Sage",
+#     "initiator": "Breach",
+# }
+# # # pop up KeyError
+# # print(valorant_agents["support"])
+#
+# support = valorant_agents.get("duelist", "Valorant agent not found")
+# support1 = valorant_agents.get("support", "Valorant agent not found")
+# print(support)
+# print(support1)
