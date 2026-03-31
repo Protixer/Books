@@ -37,4 +37,7 @@
 #     # If the key doesn't exist, default to controller
 #     picked_agent = 'controller'
 
-# print(valorant_agents[picked_agent])
+valorant_agents = {"duelist": "Jet", "controller": "Viper", "Sentinel": "Kill Joy"}
+
+for key, value in valorant_agents.items():
+    print(f"{key}: {value}")
