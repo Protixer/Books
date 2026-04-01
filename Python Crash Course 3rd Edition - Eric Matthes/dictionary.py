@@ -41,3 +41,5 @@ valorant_agents = {"duelist": "Jet", "controller": "Viper", "Sentinel": "Kill Jo
 
 for key, value in valorant_agents.items():
     print(f"{key}: {value}")
+    print(f"{key}")
+    print(f"{value}")
