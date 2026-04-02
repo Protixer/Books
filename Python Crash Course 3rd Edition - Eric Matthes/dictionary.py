@@ -37,9 +37,23 @@
 #     # If the key doesn't exist, default to controller
 #     picked_agent = 'controller'
 
-valorant_agents = {"duelist": "Jet", "controller": "Viper", "Sentinel": "Kill Joy"}
+# valorant_agents = {"duelist": "Jet", "controller": "Viper", "Sentinel": "Kill Joy"}
+#
+# for key, value in valorant_agents.items():
+#     print(f"{key}: {value}")
+#     print(f"{key}")
+#     print(f"{value}")
 
-for key, value in valorant_agents.items():
-    print(f"{key}: {value}")
-    print(f"{key}")
-    print(f"{value}")
+
+# def get_most_common_enemy(enemies_dict):
+#     max_so_far = float("-inf")
+#     most_common = None
+#     for enemy_name in enemies_dict:
+#         count = enemies_dict[enemy_name]
+#         if count > max_so_far:
+#             max_so_far = count
+#             most_common = enemy_name
+#     return most_common
+#
+#
+# get_most_common_enemy({"jackal": 4, "kobold": 3, "soldier": 10, "gremlin": 5})
