@@ -57,3 +57,18 @@
 #
 #
 # get_most_common_enemy({"jackal": 4, "kobold": 3, "soldier": 10, "gremlin": 5})
+
+
+def count_vowels(text):
+    list = []
+    for char in text:
+        tolower_char = char.lower()
+        if tolower_char in "aeiou":
+            list.append(char)
+
+    count_values = len(list)
+    unique_values = set(list)
+    return count_values, unique_values
+
+
+count_vowels("Did someone say Thunderfury, Blessed Blade of the Windseeker?")
