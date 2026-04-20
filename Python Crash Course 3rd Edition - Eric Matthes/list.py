@@ -126,19 +126,31 @@
 # print(support1)
 
 
-def is_top_weapon(weapon):
-    top_weapons = [
-        "sword of justice",
-        "sword of slashing",
-        "stabby daggy",
-        "great axe",
-        "silver bow",
-        "spellbook",
-        "spiked knuckles",
-    ]
+# def is_top_weapon(weapon):
+#     top_weapons = [
+#         "sword of justice",
+#         "sword of slashing",
+#         "stabby daggy",
+#         "great axe",
+#         "silver bow",
+#         "spellbook",
+#         "spiked knuckles",
+#     ]
+#
+#     is_weapon = weapon in top_weapons
+#     return is_weapon
+#
+#
+# is_top_weapon("sword of justice")
 
-    is_weapon = weapon in top_weapons
-    return is_weapon
+
+def get_first_item(items):
+    first_item = "ERROR"
+    for i in range(0, len(items)):
+        if i == 0:
+            first_item = items[i]
+
+    return first_item
 
 
-is_top_weapon("sword of justice")
+print(get_first_item([1, 2]))
