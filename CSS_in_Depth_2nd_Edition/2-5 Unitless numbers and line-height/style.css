@@ -1,7 +1,12 @@
+:root {
+    --main-font: Helvetica, Arial, sans-serif;
+}
+
 body {
-    line-height: 1;
+    line-height: 1.2em;
 }
 
 .about-us {
     font-size: 1em;
+    font-family: var(--main-font);
 }
