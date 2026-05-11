@@ -9,4 +9,9 @@ body {
 .about-us {
     font-size: 1em;
     font-family: var(--main-font);
+    color: #fa0000;
+}
+
+body .about-us {
+    color: #13a4a4 !important;
 }
