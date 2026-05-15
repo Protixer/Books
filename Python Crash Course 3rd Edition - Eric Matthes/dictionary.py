@@ -59,16 +59,44 @@
 # get_most_common_enemy({"jackal": 4, "kobold": 3, "soldier": 10, "gremlin": 5})
 
 
-def count_vowels(text):
-    list = []
-    for char in text:
-        tolower_char = char.lower()
-        if tolower_char in "aeiou":
-            list.append(char)
+# def count_vowels(text):
+#     list = []
+#     for char in text:
+#         tolower_char = char.lower()
+#         if tolower_char in "aeiou":
+#             list.append(char)
+#
+#     count_values = len(list)
+#     unique_values = set(list)
+#     return count_values, unique_values
+#
+#
+# count_vowels("Did someone say Thunderfury, Blessed Blade of the Windseeker?")
 
-    count_values = len(list)
-    unique_values = set(list)
-    return count_values, unique_values
 
+# my_dict = {"duelist": "Jet", "smoker": "Omen"}
+#
+# for key, value in my_dict.items():
+#     print(f"{key}: {value}")
+#
+# my_dict["duelists"] = my_dict["duelist"]
+# del my_dict["duelist"]
+#
+# for agent in my_dict.values():
+#     print(agent)
+#
+# for key in my_dict.keys():
+#     print(f"{key}: {my_dict[key]}")
 
-count_vowels("Did someone say Thunderfury, Blessed Blade of the Windseeker?")
+# favorite_languages = {
+#     "jen": "python",
+#     "sarah": "c",
+#     "edward": "rust",
+#     "phil": "python",
+# }
+# friends = ["phil", "sarah"]
+# for name in favorite_languages.keys():
+#     print(f"Hi {name.title()}!")
+#     if name in friends:
+#         language = favorite_languages[name].title()
+#         print(f"{name.title()} is {language.title()}")
