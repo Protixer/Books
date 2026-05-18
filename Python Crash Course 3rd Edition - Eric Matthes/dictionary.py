@@ -88,15 +88,25 @@
 # for key in my_dict.keys():
 #     print(f"{key}: {my_dict[key]}")
 
+# favorite_languages = {
+#     "jen": "python",
+#     "sarah": "c",
+#     "edward": "rust",
+#     "phil": "python",
+# }
+# friends = ["phil", "sarah"]
+# for name in favorite_languages.keys():
+#     print(f"Hi {name.title()}!")
+#     if name in friends:
+#         language = favorite_languages[name].title()
+#         print(f"{name.title()} is {language.title()}")
+
 favorite_languages = {
     "jen": "python",
     "sarah": "c",
     "edward": "rust",
     "phil": "python",
 }
-friends = ["phil", "sarah"]
-for name in favorite_languages.keys():
-    print(f"Hi {name.title()}!")
-    if name in friends:
-        language = favorite_languages[name].title()
-        print(f"{name.title()} is {language.title()}")
+print("The following languages have been mentioned:")
+for language in favorite_languages.values():
+    print(language.title())
